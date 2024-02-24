@@ -1,0 +1,32 @@
+.mentor-booking-container {
+    display: grid;
+    /* grid-template-columns: repeat(4, 27vw); */
+    row-gap: 1rem;
+    grid-auto-flow: row;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    background-color: rgba(255,255,255,0);
+    min-width:27%;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+  }
+.mentor-detailed-view{
+    padding:3%;
+    border-top: 1px solid black;
+    display: flex;
+    margin:5%;
+    margin-top: 2%;
+    min-width: 52%;
+    box-shadow:rgba(149, 157, 165, 0.4) 0px 8px 24px; 
+    padding-left:5%
+}
+.profile-of-mentor{
+    width: 7rem;
+    height:7rem;
+    clip-path: circle();
+    background-color: white;
+    margin:1%;
+    
+   
+  }

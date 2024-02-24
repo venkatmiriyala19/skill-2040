@@ -1,0 +1,23 @@
+.heading {
+    position: absolute;
+    top: 25vh;
+    font-size: 7rem;
+
+    color: rgb(125, 120, 219);
+    font-weight: bold;
+    font-weight: 1000;
+    word-wrap: break-word;
+    margin-left: 15vh;
+}
+
+.heading .year {
+    font-size: 0.90em;
+    letter-spacing: -0.8rem;
+}
+
+.heading .tagline {
+    font-size: 1.8rem;
+    display: block;
+    margin-top: -10vh;
+    color: rgb(125, 120, 219);
+}
