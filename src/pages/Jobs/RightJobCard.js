@@ -5,7 +5,7 @@ import { GoDotFill } from "react-icons/go";
 import Microsoft from './styles/Microsoft.png';
 import Google from './styles/Google.jpg';
 import Apple from './styles/Apple.png';
-import OpenAI from './styles/OpenAI.png';
+
 import Telegram from './styles/Telegram.png';
 import Dell from './styles/Dell.png';
 import Spotify from './styles/Spotify.png';

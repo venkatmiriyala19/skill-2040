@@ -11,13 +11,15 @@
     padding-left: 3.5%;
     align-items: center;
     justify-content: center;
-    min-height: 5rem;
+    min-height: 3rem;
     width: 85%;
+    height:70%;
     margin-left: 3%;
     border-radius: 26px;
     color: #162734;
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
     border: 2px solid #ccc;
+    padding-bottom: 0;
     
   }
   
@@ -37,6 +39,7 @@
     font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-left: 5%;
   }
   .mentor-booking-description{
     margin-top: 4%;
@@ -48,11 +51,14 @@
   
   .mentor-booking-details {
     display: flex;
+    margin-left: 5%;
     
   }
   .mentor-booking-details2 {
     display: flex;
     align-items: center;
+    margin-left: 5%;
+
     
   }
   .mentor-book-button {
@@ -61,7 +67,7 @@
     text-decoration: none;
     color: white;
     background-color: rgb(106, 99, 244);
-    padding: 0.5em 1.25em;
+    padding: 0.5rem 1.25em;
     border-radius: 0.25rem;
     margin-left: 20%;
     width:5vw;

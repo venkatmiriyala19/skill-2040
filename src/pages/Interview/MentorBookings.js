@@ -23,7 +23,7 @@ export default function MentorBookings() {
           </div>
           <div className='mentor-booking-details2'>
             <MdAccessTime style={{ fontSize: "25px", color: "rgb(125, 120, 219)",marginRight:'5%',marginBottom:'2%' }} />
-            <p>30 Minutes</p>
+            <p style={{fontSize:'0.9rem'}}>30 Minutes</p>
             <a href="#" className="mentor-book-button">
                     Book Now
                 </a>
