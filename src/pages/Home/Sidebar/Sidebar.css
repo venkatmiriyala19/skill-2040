@@ -28,9 +28,9 @@
 @media (max-width:1300px){
     .sidebox {
         padding-top: 30px;
-        width: 70px;
+        width: 71px;
         height: auto;
-        font-size: large;
+        font-size: 1rem;
     }
 
     .submissions {
