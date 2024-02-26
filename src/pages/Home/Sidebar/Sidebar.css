@@ -9,7 +9,7 @@
     align-items: center;
     right: 0;
     width: 95px;
-    height: 270px;
+    height: auto;
     background-color: rgb(125, 120, 219);
     color: white;
     border-radius: 20px;
@@ -18,8 +18,8 @@
     padding-top: 45px;
     padding-left: 20px;
     padding-right: 10px;
-
-
+    font-size: 1.5rem;
+    padding: 1.5rem  1rem;
 }
 
 .submissions {

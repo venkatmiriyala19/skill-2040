@@ -13,7 +13,7 @@ export default function Nav() {
                 <nav className="nav container">
 
                     <Link to="home" smooth={true} duration={500} className="nav__logo">
-                        <img src='/images/bulb.jpg'></img>
+                    <i className="fa-solid fa-bullseye"></i>
                     </Link>
 
                     <ul className="nav__list grid">

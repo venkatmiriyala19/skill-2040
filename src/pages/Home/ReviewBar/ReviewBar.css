@@ -1,9 +1,5 @@
 .reviewbar {
     border: 1px solid #ccc;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-
     background-color: rgb(125, 120, 219);
     padding: 15px;
     border-radius: 10px 10px 0px 0px;
@@ -14,7 +10,6 @@
 
 .reviewbar:hover {
     border-radius: 10px;
-
     transition: opacity 1.2s, transform 1.3s;
 }
 
@@ -41,4 +36,13 @@
     font-size: larger;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
+}
+.reviews{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    width: 30vw;
+    margin-left:1rem;
+    justify-content: space-between;
 }

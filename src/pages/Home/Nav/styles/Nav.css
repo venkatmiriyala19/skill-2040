@@ -80,3 +80,7 @@ nav ul li .link:after {
 nav.circle ul li .link:hover:after {
     -webkit-animation: circle 1.5s ease-in forwards;
 }
+
+nav i{
+    font-size: 2.0rem;
+}

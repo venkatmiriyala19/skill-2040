@@ -9,8 +9,7 @@ export default function Sidebar() {
                 time
                 users
                 <hr className='hr'></hr>
-                1M Sub
-                <p className='submissions'>missions overall</p>
+                1M Submissions overall
             </div>
         </>
     )
