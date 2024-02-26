@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500&display=swap');
 .interview-container {
   overflow-x: auto;
   white-space: nowrap;
@@ -12,14 +13,24 @@
 }
 .mentor-title-left{
   margin-right: 0.5rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   
 }
 .mentor-title-right{
   color:rgb(106, 99, 244);
   margin-right: 0.5rem;
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
+.mentor-title-description{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .mentor-cards-wrapper {
   display: flex;
   flex-wrap: nowrap;

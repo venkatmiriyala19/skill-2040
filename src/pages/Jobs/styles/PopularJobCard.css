@@ -14,14 +14,20 @@ border-radius: 10px;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 width: 100%;
 max-width: 300px;
+transition: 0.5s;
+}
+.pjob-card:hover{
+  transition: 0.5s;
 }
 .pjob-card:hover .pjob-arrow-wrapper {
+
 background-color: rgb(106, 99, 244);
 border-radius: 50%;
 color: white;
 }
 .pjob-card:hover {
 border: 1px solid black;
+
 }
 .pjob-card:hover h3.pjob-title {
 color: rgb(106, 99, 244);

@@ -13,12 +13,12 @@ const Interview = () => {
     <>
     <div className="top-mentors-container">
         <div style={{ display: "flex", textAlign: "center", alignItems: "center" }}>
-        <h2 className="mentor-title-left" style={{ fontSize: "1.7rem" }}>Top </h2>
-          <h1 className="mentor-title-right" style={{ fontSize: "1.7rem" }}>Mentors</h1>
+        <h2 className="mentor-title-left" style={{ fontSize: "2rem" }}>Top </h2>
+          <h1 className="mentor-title-right" style={{ fontSize: "2rem" }}>Mentors</h1>
         </div>
         <br />
-        <p style={{fontSize:"1.2rem"}}>
-          In search of excellence? Explore the highest-rated mentors as recognized by the learner community.
+        <p className="mentor-title-description" style={{ fontSize: "1.2rem" }}>
+          Discover mentors who excel in their fields and have a <span style={{color:"rgb(106, 99, 244)",fontWeight:"700"}}>proven track record of guiding learners</span> to success. Whether you're diving into <span style={{color:"rgb(106, 99, 244)",fontWeight:"700"}}>programming or mastering a new technology</span>, our top mentors are here to support your journey.
         </p>
         <br />
         <br />
@@ -34,9 +34,8 @@ const Interview = () => {
           <h1 className="mentor-title-right" style={{ fontSize: "1.7rem" }}>Mentors</h1>
         </div>
         <br />
-        <p style={{fontSize:"1.2rem"}}>
-          In search of excellence? Explore the highest-rated mentors as recognized by the learner community.
-        </p>
+        <p className="mentor-title-description" style={{fontSize:"1.2rem"}}>
+        Embark on a quest for excellence in <span style={{color:"rgb(106, 99, 244)",fontWeight:"700"}}>Data Structures and Algorithms</span> with top-rated mentors recognized by the learner community.</p>
         <br />
         <br />
       </div>

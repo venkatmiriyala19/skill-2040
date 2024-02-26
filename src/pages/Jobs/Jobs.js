@@ -15,8 +15,8 @@ const Jobs = () => {
         </div>
         <br></br>
         <p>
-        Discover employment opportunities that resonate with your strengths and passions, forging a career path that blends personal fulfillment with 
-        professional success
+        Discover employment opportunities that<span className="course-highlight-description"> resonate with your strengths and passions,</span> forging a career path that blends <span className="course-highlight-description">personal fulfillment with 
+        professional success</span>
         </p>
         <br></br>
         <br></br>
@@ -32,7 +32,7 @@ const Jobs = () => {
         </div>
         <br></br>
         <p>
-        Explore popular job opportunities in line with current market trends, ensuring a promising professional path.</p>
+        Explore <span className="course-highlight-description">popular job opportunities </span>in line with current market trends, ensuring a<span className="course-highlight-description"> promising professional path.</span></p>
         <br></br>
         <br></br>
       </div>

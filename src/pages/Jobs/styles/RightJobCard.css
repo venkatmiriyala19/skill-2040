@@ -14,11 +14,13 @@
   border-radius: 26px;
   color: #162734;
   border: 2px solid #ccc;
+  transition: 0.5s;
   
 }
 
 .rjob-card:hover {
-  border: 1px solid black;
+  transition: 0.5s;
+  border: 2px solid  rgba(94, 88, 88, 0.911);
 }
 
 .rjob-card:hover h3.rjob-title {
