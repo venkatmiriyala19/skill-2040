@@ -10,6 +10,7 @@ import Coding from './pages/Coding/Coding';
 import Jobs from './pages/Jobs/Jobs';
 import MentorDetails from './pages/Interview/MentorDetails';
 import Interview from './pages/Interview/Interview';
+import CourseContent from './pages/Courses/CourseContent';
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/skill2040/home" element={<Home />} />
           <Route path="/skill2040/courses" element={<Courses />} />
+          <Route path="/skill2040/coursecontent" element={<CourseContent />} />
           <Route path="/skill2040/coding" element={<Coding />} />
           <Route path="/skill2040/jobs" exact element={<Jobs />} />
           <Route path="/skill2040/interview" exact element={<Interview />} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CourseCard = () => {
     return (
@@ -8,9 +9,10 @@ const CourseCard = () => {
                 <p className="course-card-body" style={{ color: 'white' }}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa.
                 </p>
-                <a href="#" className="button">
-                    Learn More
-                </a>
+                
+                <Link to="/skill2040/coursecontent" className="button">
+  Learn More
+</Link>
             </div>
         </div>
     );
