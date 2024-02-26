@@ -9,17 +9,19 @@ import Nav from './pages/Home/Nav/Nav';
 import Coding from './pages/Coding/Coding';
 import Jobs from './pages/Jobs/Jobs';
 import MentorDetails from './pages/Interview/MentorDetails';
+import Interview from './pages/Interview/Interview';
 function App() {
   return (
     <>
       <Router>
         <Nav />
         <Routes>
-          <Route path="/skill2040/" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/skill2040/home" element={<Home />} />
           <Route path="/skill2040/courses" element={<Courses />} />
           <Route path="/skill2040/coding" element={<Coding />} />
           <Route path="/skill2040/jobs" exact element={<Jobs />} />
+          <Route path="/skill2040/interview" exact element={<Interview />} />
           <Route path="/skill2040/interview/mentordetails" exact element={<MentorDetails />} />
         </Routes>
       </Router>
