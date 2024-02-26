@@ -11,6 +11,7 @@
 .reviewbar:hover {
     border-radius: 10px;
     transition: opacity 1.2s, transform 1.3s;
+    
 }
 
 .reviewbar>.feedback {
@@ -45,4 +46,12 @@
     width: 30vw;
     margin-left:1rem;
     justify-content: space-between;
+}
+@media (max-width:1300px){
+    .reviews{
+        width: 27vw;
+    }
+    .reviewbar:hover{
+        height: 100px;
+    }
 }

@@ -25,7 +25,18 @@
 .submissions {
     font-size: 15px;
 }
+@media (max-width:1300px){
+    .sidebox {
+        padding-top: 30px;
+        width: 70px;
+        height: auto;
+        font-size: large;
+    }
 
+    .submissions {
+        font-size: small;
+    }
+}
 @media (max-width:500px) {
     .sidebox {
         padding-top: 30px;
