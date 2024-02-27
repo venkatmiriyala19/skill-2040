@@ -3,7 +3,6 @@ import MentorCard from './MentorCard';
 import "./styles/Interview.css";
 
 const Interview = () => {
-  // Create an array to repeat the MentorCard component
   const numberOfMentors = 6;
   const mentorCards = Array.from({ length: numberOfMentors }, (_, index) => (
     <MentorCard key={index} />

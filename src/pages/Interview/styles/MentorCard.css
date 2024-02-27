@@ -69,6 +69,7 @@
     display:flex;
     text-align: center;
     justify-content: center;
+    margin-left: 0;
 }
 .mentor-card-body p {
   white-space: normal;

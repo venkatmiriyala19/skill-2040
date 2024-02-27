@@ -3,13 +3,21 @@ import { FaCheckCircle } from 'react-icons/fa';
 import ReactPlayer from 'react-player';
 import "./styles/CourseContent.css";
 import { FaRegCheckCircle } from "react-icons/fa";
+import { useWindowSize } from "react-use";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Confetti from "react-confetti";
 
 const CourseContent = () => {
   const [isCompleted, setIsCompleted] = useState(false);
   const [timeSpent, setTimeSpent] = useState(0);
+  const { width, height } = useWindowSize();
+  const [stopConfetti, setStopConfetti] = useState(false);
+
 
   const handleMarkAsComplete = () => {
     setIsCompleted(true);
+    showConfettiToast();
   };
 
   useEffect(() => {
@@ -19,6 +27,30 @@ const CourseContent = () => {
 
     return () => clearInterval(interval);
   }, []);
+  const showConfettiToast = () => {
+    toast.success("Hooray! You've successfully completed this chapter", {
+      position: "top-right",
+      autoClose: 10000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      style: {
+        fontWeight: "bold",
+        fontSize: "1.2rem",
+      },
+    });
+
+    // Stop confetti after 5 seconds (5000 milliseconds)
+    const confettiTimer = setTimeout(() => {
+      setStopConfetti(true);
+    }, 10000);
+
+    // Clear the timer when the component unmounts or when the effect runs again
+    return () => clearTimeout(confettiTimer);
+  };
 
   const formatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
@@ -28,6 +60,10 @@ const CourseContent = () => {
 
   return (
     <>
+    {isCompleted && (
+        <Confetti width={width} height={height + window.scrollY}
+         />
+      )}
       <div className='main-video'>
         <div className="video-content" style={{ marginBottom: "1rem" }}>
           <div className="video-container">
@@ -45,7 +81,8 @@ const CourseContent = () => {
           <p style={{ fontSize: "1.1rem" }}>HTML5 was first released in a public-facing form on 22 January 2008,[2] with a major update and "W3C Recommendation" status in October 2014.[5][6] Its goals were to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software. HTML5 is intended to subsume not only HTML 4 but also XHTML1 and even the DOM Level 2 HTML itself.[7]</p>
           
           <div style={{marginTop:'10%'}}>
-          <p style={{marginLeft:'2%'}}> Time Spent: {formatTime(timeSpent)}</p>
+          <p style={{marginLeft:'2%'}}> Time Spent: {formatTime(timeSpent)} <span style={{float:'right',marginRight:'2%'}}>Expected Time: 10:00</span></p>
+          
           <button
             className="mark-as-complete"
             onClick={handleMarkAsComplete}

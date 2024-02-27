@@ -36,7 +36,7 @@ const MentorCard = () => {
         </div>
         <div className="mentor-contact-me-button">
           
-            <Link to='/skill2040/interview/mentordetails' className="mentor-contact-button">
+            <Link to='/skill2040/interview/mentordetails' className="mentor-contact-button" style={{marginLeft:'0'}}>
             Contact Now
             </Link>
         </div>
