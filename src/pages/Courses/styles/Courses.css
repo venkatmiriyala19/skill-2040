@@ -10,7 +10,7 @@
     font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
+  color:black
 }
 .Course-hearderTitle-button h2:hover{
     color:#5E5DF0;
@@ -18,10 +18,6 @@
 /* .Course-hearderTitle-button{
     display:flex;
 } */
-.course-highlight-description{
-    color:rgb(106, 99, 244);
-    font-weight:600;
-}
 .course-author-details-overview p{
     font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -33,15 +29,16 @@
     align-items: center;
     justify-content: center;
     min-height: 5rem;
-    width: 22rem;
-    margin-left: 5%;
+    width: 16rem;
+    margin-left: 20%;
     border-radius: 26px;
     color: #162734;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition:0.5s;
+    transition: 0.5s;
     
   }
+
 .course-card-content{
     padding: 1.5rem;
 }
@@ -56,28 +53,22 @@
 
   }
   .course-card:hover{
-    transition: 0.5s;
-    border:1px solid rgba(51, 50, 50, 0.708);
     cursor: pointer;
-  }
-  .course-card:hover .course-title-link{
-    cursor: pointer;
-    color:#5E5DF0;
+    border: 1px solid rgba(56, 56, 56, 0.825);
     transition: 0.5s;
-    
+
   }
   .course-image{
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .course-title-link{
-    color:black;
-    transition:0.5s;
-  }
- 
   @media (max-width:1300px) {
    .course-card{
     width:20vw;
    } 
+  }
+  .course-company{
+    display: flex;
+    justify-content: space-between;
   }
