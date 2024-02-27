@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 import "./styles/CourseContent.css";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { useWindowSize } from "react-use";
-import { ToastContainer, toast } from "react-toastify";
+import {  toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Confetti from "react-confetti";
 

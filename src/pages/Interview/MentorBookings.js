@@ -3,17 +3,13 @@ import "./styles/MentorBookings.css";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiDollar } from "react-icons/ci";
 import { MdAccessTime } from "react-icons/md";
-import { Button } from 'react-scroll';
 import { useState } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Confetti from 'react-confetti';
-import { useWindowSize } from "react-use";
 
 export default function MentorBookings() {
   const [isBookingCompleted, setIsBookingCompleted] = useState(false);
-  const [stopConfetti, setStopConfetti] = useState(false);
-  const { width, height } = useWindowSize();
+
   const handleBookNowClick = () => {
     // Perform any booking logic here
     
